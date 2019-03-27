@@ -1,0 +1,47 @@
+/* Container element */
+.ui-tabview 	{
+}
+/* Container of headers. */
+.ui-tabview-nav 	{
+
+}
+/* Selected tab header. */
+.ui-tabview-selected {
+
+}	
+/* Container panels. */
+.ui-tabview-panels 	{
+
+}
+/* Content of a tab. */
+.ui-tabview-panel {
+
+}
+
+/*tab label font size*/
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li a, body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a, body .ui-tabview.ui-tabview-left .ui-tabview-nav li a, body .ui-tabview.ui-tabview-right .ui-tabview-nav li a{
+    font-size: x-small;
+}
+
+/* Tab lebel padding*/
+body .ui-tabview.ui-tabview-top .ui-tabview-nav li a, body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a, body .ui-tabview.ui-tabview-left .ui-tabview-nav li a, body .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
+	float: none;
+	display: inline-block;
+	color: #333333;
+	padding: 0.2em 1em;
+	font-weight: 700;
+}
+
+/*remove tab content panel*/
+body .ui-tabview .ui-tabview-panels {
+	background-color: transparent;
+	padding: 0;
+	border: none;
+	color: transparent;
+}
+
+.something{
+    background-color: blueviolet;
+    height: 90px;
+
+}
