@@ -12,6 +12,8 @@
   <script src="https://unpkg.com/single-spa/lib/umd/single-spa.min.js"></script>
   <script src="/navbar/dist/navbar/main.js"></script>
   <script src="/app1/dist/app1/main.js"></script>
+  <script src="/app2/dist/app2/main.js"></script>
+
   <!-- primeng css -->
     <link rel="stylesheet" type="text/css" href="/navbar/node_modules/primeicons/primeicons.css" />
     <link rel="stylesheet" type="text/css" href="/navbar/node_modules/primeng/resources/themes/nova-light/theme.css" />
@@ -23,11 +25,10 @@
 
   <script>
     singleSpa.registerApplication('navbar', window.navbar.default, location => true);
-    // singleSpa.registerApplication('app1', window.app1.default, location => true);
     singleSpa.registerApplication('app1', window.app1.default, location => location.pathname.startsWith('/app1'));
+    singleSpa.registerApplication('app2', window.app2.default, location => location.pathname.startsWith('/app2'));
     singleSpa.start();
   </script>
-<router-outlet></router-outlet>
 
 
 </body>

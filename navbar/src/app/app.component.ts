@@ -12,11 +12,14 @@ export class AppComponent {
   title = 'navbar';
 
   onTabChange(event){
-    if(event.index ==0){
+    if(event.index == 0){
       history.pushState({urlPath:'/'},"",'/');
     }
-    else if(event.index ==1){
+    else if(event.index == 1){
       history.pushState({urlPath:'/app1'},"",'/app1');
+    }
+    else if(event.index == 2){
+      history.pushState({urlPath:'/app2'},"",'/app2');
     }
   }
 
