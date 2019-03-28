@@ -1,5 +1,6 @@
 /* Container element */
 .ui-tabview 	{
+    padding: 0;
 }
 /* Container of headers. */
 .ui-tabview-nav 	{
@@ -23,7 +24,7 @@ body .ui-tabview.ui-tabview-top .ui-tabview-nav li a, body .ui-tabview.ui-tabvie
     font-size: x-small;
 }
 
-/* Tab lebel padding*/
+/* Tab label padding*/
 body .ui-tabview.ui-tabview-top .ui-tabview-nav li a, body .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a, body .ui-tabview.ui-tabview-left .ui-tabview-nav li a, body .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
 	float: none;
 	display: inline-block;
@@ -33,15 +34,14 @@ body .ui-tabview.ui-tabview-top .ui-tabview-nav li a, body .ui-tabview.ui-tabvie
 }
 
 /*remove tab content panel*/
-body .ui-tabview .ui-tabview-panels {
-	background-color: transparent;
+ body .ui-tabview .ui-tabview-panels {
 	padding: 0;
 	border: none;
-	color: transparent;
-}
+	color: black;
+} 
 
-.something{
-    background-color: blueviolet;
-    height: 90px;
 
+.s-spa-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }

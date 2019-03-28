@@ -22,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
+    "primeng": "^7.1.0",
     "rxjs": "~6.3.3",
     "single-spa-angular": "file:single-spa-angular-3.0.0-beta.5.tgz",
     "tslib": "^1.9.0"
