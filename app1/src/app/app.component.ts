@@ -13,20 +13,26 @@ export class AppComponent {
 
     ngOnInit() {
         this.items = [
+          {
+            label: 'App1 home', 
+            routerLink: ['app1'],
+            icon: 'pi pi-fw pi-home',                        
+          },
             {
-                label: 'File',
+                label: 'App 1 Subroutes',
                 icon: 'pi pi-fw pi-file',
-                items: [{
-                        label: 'New', 
-                        icon: 'pi pi-fw pi-plus',
-                        items: [
-                            {label: 'Project'},
-                            {label: 'Other'},
-                        ]
-                    },
-                    {label: 'Open'},
-                    {separator:true},
-                    {label: 'Quit'}
+                items: [
+                  {
+                    label: 'App1 home', 
+                    routerLink: ['app1'],
+                    icon: 'pi pi-fw pi-home',                        
+                  },
+                  {separator:true},
+                  {
+                    label: 'Sub Component 1', 
+                    routerLink: ['app1/subcomponent1'],
+                    icon: 'pi pi-fw pi-plus',                        
+                  }
                 ]
             },
             {
