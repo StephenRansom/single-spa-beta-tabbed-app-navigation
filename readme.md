@@ -1,4 +1,4 @@
-This is using a locally built version of a single-spa-angular beta branch. Either build it yourself, or update the package.json to the correct beta version.
+This is using a locally built version of a single-spa-angular beta branch. The archive is included, or you can update the package.json to a different version. 
 
 This app uses tabbed navigation to switch between single spa apps. 
 
