@@ -11,13 +11,19 @@
   <script src="https://unpkg.com/zone.js"></script>
   <script src="https://unpkg.com/single-spa/lib/umd/single-spa.min.js"></script>
   <script src="/navbar/dist/navbar/main.js"></script>
+  <script src="/app1/dist/app1/main.js"></script>
+
+  <!-- css for navbar app -->
   <link rel="stylesheet" type="text/css" href="/navbar/node_modules/primeicons/primeicons.css" />
   <link rel="stylesheet" type="text/css" href="/navbar/node_modules/primeng/resources/themes/nova-light/theme.css" />
   <link rel="stylesheet" type="text/css" href="/navbar/node_modules/primeng/resources/primeng.min.css" />
   <link rel="stylesheet" type="text/css" href="/navbar/src/app/app.component.css" />
+   <!-- end css for navbar app -->
 
   <script>
     singleSpa.registerApplication('navbar', window.navbar.default, location => true);
+    // singleSpa.registerApplication('app1', window.app1.default, location => true);
+    singleSpa.registerApplication('app1', window.app1.default, location => location.pathname.startsWith('/app1'));
     singleSpa.start();
   </script>
 </body>

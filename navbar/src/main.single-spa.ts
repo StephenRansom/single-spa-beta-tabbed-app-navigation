@@ -14,7 +14,7 @@ if (environment.production) {
 export default singleSpaAngular({
   mainModule: AppModule,
   angularPlatform: platformBrowserDynamic(),
-  template: '<app-root />',
+  template: '<navbar-root />',
   domElementGetter() {
     let containerEl = document.getElementById('navbar');
     if (!containerEl) {
