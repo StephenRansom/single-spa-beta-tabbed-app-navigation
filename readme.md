@@ -12,6 +12,5 @@ in root folder run
 `npx serve -l 4200 --single`
 
 
-
-Currently the navigation is happening in the navbar app, but the nav app doesn't know how to singleSpaNavigate, ass app1 is registered elsewhere...
+ng serve support incoming
 
