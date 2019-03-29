@@ -6,6 +6,7 @@ import { Subroute1Component } from './subroute1/subroute1.component';
 import { HomeComponent } from './home/home.component';
 import {MenubarModule} from 'primeng/menubar';
 import { AppRoutingModule } from './app-routing.module';
+import { Subroute2Component } from './subroute2/subroute2.component';
 
 
 
@@ -13,7 +14,8 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     HomeComponent,
-    Subroute1Component
+    Subroute1Component,
+    Subroute2Component
   ],
   imports: [
     BrowserModule,

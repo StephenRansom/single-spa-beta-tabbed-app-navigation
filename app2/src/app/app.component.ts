@@ -32,6 +32,11 @@ export class AppComponent {
                   label: 'Sub route 1', 
                   routerLink: ['app2/subroute1'],
                   icon: 'pi pi-fw pi-plus',                        
+                },
+                {
+                  label: 'Sub route 2', 
+                  routerLink: ['app2/subroute2'],
+                  icon: 'pi pi-fw pi-plus',                        
                 }                
               ]
           }

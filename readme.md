@@ -1,8 +1,8 @@
-This app uses tabbed navigation to switch between single spa apps. 
+This app uses tabbed navigation to switch between 3 distinct Angular 7 applications 
 
 # to run
 
-run `ng build` in each sub app (currently navbar and app1)
+run `npm install` and `ng build` in each sub app (currently navbar, app1, and app2)
 
 
 in root folder run 

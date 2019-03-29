@@ -33,6 +33,11 @@ export class AppComponent {
                   label: 'Sub Component 1', 
                   routerLink: ['app1/subcomponent1'],
                   icon: 'pi pi-fw pi-plus',                        
+                },
+                {
+                  label: 'Sub Component 2', 
+                  routerLink: ['app1/subcomponent2'],
+                  icon: 'pi pi-fw pi-plus',                        
                 }
               ]
           },
